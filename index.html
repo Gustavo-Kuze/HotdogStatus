@@ -7,23 +7,24 @@
     <title>HotdogStatus</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css">
-    <!-- <script src="https://www.gstatic.com/firebasejs/5.10.0/firebase.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/5.10.0/firebase-firestore.js"></script> -->
+    <script src="https://www.gstatic.com/firebasejs/5.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.10.0/firebase-firestore.js"></script>
 </head>
 
 <body>
-
+    
     <div class="container">
         <div class="output-container">
             <h1>Hotdog status:</h1>
-            <p id="status-output">ddsasd</p>
+            <p id="status-output">...</p>
         </div>
         <div class="input-container">
-            <input id="status-input" type="text" placeholder="Digite um status para salvar no firestore">
-            <button id="btn-save">Salvar</button>
+            <input id="status-input" type="text" placeholder="Give the hotdog a new status">
+            <button id="btn-save">Save</button>
         </div>
     </div>
-
+    
+    <script src="firebaseSetup.js"></script>
     <script src="main.js"></script>
 </body>
 
